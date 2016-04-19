@@ -161,8 +161,8 @@ public class AmazonEC2Cloud extends EC2Cloud {
                     String name = r.getRegionName();
                     model.add(name, name);
                 }
-                model.add("us-gov-west-1", "us-gov-west-1");
             }
+            model.add("us-gov-west-1", "us-gov-west-1");
             return model;
         }
 
